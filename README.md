@@ -35,3 +35,4 @@ Formatted File is generated as- result.html
 
 The result might look something like this :
 
+![screenshot](https://i.imgur.com/9HbQB4L.png)
