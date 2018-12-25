@@ -1,3 +1,4 @@
+# sample class
 
 class Sum:
 
@@ -11,8 +12,10 @@ class Sum:
 
 if __name__=='__main__':
 
-    num1 = int(input('Enter First Number:'))
-    num2 = int(input('Enter Second Number:'))
+    # Number 1
+    num1 = int(input('Enter First Number : '))
+    # Number 2
+    num2 = int(input('Enter Second Number : '))
     obj = Sum(num1,num2)
     obj.sum()
 
