@@ -2,7 +2,7 @@ from pygments import highlight
 from pygments.formatters import HtmlFormatter
 from pygments.lexers import get_lexer_by_name
 import sys
-
+import os
 
 def main_module():
     fname = input('Enter the file\'s name which is to be formatted :')
@@ -41,7 +41,6 @@ def main_module():
             print('\nFormatted File is generated as - result.html')
         else:
             print('Please select style from the list only')
-
 
 def main():
     main_module()
