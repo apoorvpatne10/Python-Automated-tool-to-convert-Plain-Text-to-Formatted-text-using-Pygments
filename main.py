@@ -27,6 +27,7 @@ def main_module():
                  'rrt', 'tango', 'trac', 'vim' ,'friendly', 'perldoc']
 
     check= True
+
     while check:
 
         styl = input(f"\nSpecify a style from this list :\n{style_list}\n")
