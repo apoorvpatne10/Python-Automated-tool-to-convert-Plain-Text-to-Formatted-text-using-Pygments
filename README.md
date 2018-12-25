@@ -4,8 +4,34 @@ Tool written in python to convert the plain python code text to the formatted te
 autumn','borland','bw','colorful','default','emacs','friendly','fruity','manni','monokai','murphy','native','pastie','perldoc','rrt',
 'tango','trac','vim'
 
-## Now go to the Terminal and run Source_code.py
-![screenshot 56](https://user-images.githubusercontent.com/37475805/50423226-b65a9c00-0878-11e9-9dcd-26571d282394.png)
+### Working
 
-## Great! Buffer_file.html file is generated which is when opened through the a browser looks like this-
-![screenshot 57](https://user-images.githubusercontent.com/37475805/50423227-b6f33280-0878-11e9-889d-679c4e5bf1f2.png)
+* Open a terminal window and paste this : 
+```
+git clone https://github.com/apoorvpatne10/Python-Automated-tool-to-convert-Plain-Text-to-Formatted-text-using-Pygments
+```
+
+
+* Once done, cd into the repository
+```
+cd Python-Automated-tool-to-convert-Plain-Text-to-Formatted-text-using-Pygments/
+```
+
+* Run the __main__.py file
+```
+apoorv@apoorv:~python __main__.py
+Enter the file's name which is to be formatted :temp.py
+
+Press
+1 to insert line Numbers
+Any other key for not:1
+
+Specify a style from this list :
+['autumn', 'borland', 'bw', 'colorful', 'default', 'emacs', 'fruity', 'manni', 'monokai', 'murphy', 'native', 'pastie', 'rrt', 'tango', 'trac', 'vim', 'friendly', 'perldoc']
+vim
+
+Formatted File is generated as- result.html
+```
+
+The result might look something like this :
+
