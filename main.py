@@ -16,7 +16,7 @@ def main_module():
     with rf:
         code = rf.read()
 
-    L = input('\nPress\n1 to insert line Numbers\nAny other key for not:')
+    L = input('\nPress\n->1 to insert line Numbers\n->Any other key for not : ')
     if L == '1':
         var = True
     else:
