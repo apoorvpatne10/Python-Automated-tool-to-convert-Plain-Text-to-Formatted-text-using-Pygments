@@ -1,0 +1,29 @@
+<table class="sourcetable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="source" style="background: #000000"><pre style="line-height: 125%"><span></span><span style="color: #cdcd00">class</span> <span style="color: #00cdcd">Sum</span><span style="color: #cccccc">:</span>
+    <span style="color: #cdcd00">def</span> <span style="color: #cccccc">__init__(</span><span style="color: #cd00cd">self</span><span style="color: #cccccc">,num1,num2):</span>
+        <span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num1</span><span style="color: #3399cc">=</span><span style="color: #cccccc">num1</span>
+        <span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num2</span><span style="color: #3399cc">=</span><span style="color: #cccccc">num2</span>
+    <span style="color: #cdcd00">def</span> <span style="color: #cccccc">sum(</span><span style="color: #cd00cd">self</span><span style="color: #cccccc">):</span>
+        <span style="color: #cdcd00">print</span><span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;Sum of numbers is:{}&#39;</span><span style="color: #3399cc">.</span><span style="color: #cccccc">format(</span><span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num1</span><span style="color: #3399cc">+</span><span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num2))</span>
+
+
+<span style="color: #cdcd00">if</span> <span style="color: #00cdcd">__name__</span><span style="color: #3399cc">==</span><span style="color: #cd0000">&#39;__main__&#39;</span><span style="color: #cccccc">:</span>
+    <span style="color: #000080"># Use input function to input the values but by default it inputs a string,so typecast the values to int</span>
+    <span style="color: #cccccc">num1</span> <span style="color: #3399cc">=</span> <span style="color: #cd00cd">int</span><span style="color: #cccccc">(</span><span style="color: #cd00cd">input</span><span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;Enter First Number:&#39;</span><span style="color: #cccccc">))</span>
+    <span style="color: #cccccc">num2</span> <span style="color: #3399cc">=</span> <span style="color: #cd00cd">int</span><span style="color: #cccccc">(</span><span style="color: #cd00cd">input</span><span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;Enter Second Number:&#39;</span><span style="color: #cccccc">))</span>
+    <span style="color: #cccccc">obj</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">Sum(num1,num2)</span>
+    <span style="color: #cccccc">obj</span><span style="color: #3399cc">.</span><span style="color: #cccccc">sum()</span>
+</pre></div>
+</td></tr></table>
