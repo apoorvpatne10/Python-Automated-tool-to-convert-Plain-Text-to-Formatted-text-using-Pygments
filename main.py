@@ -27,9 +27,8 @@ def main_module():
                  'rrt', 'tango', 'trac', 'vim' ,'friendly', 'perldoc']
 
     check= True
-
     while check:
-        # styl = input('\nSpecify style from this list:{}:\n'.format(style_list))
+
         styl = input(f"\nSpecify a style from this list :\n{style_list}\n")
 
         if styl in style_list:
@@ -39,7 +38,7 @@ def main_module():
             with open('demo/result.html', "w") as f:
                 result = highlight(code, lexer, formatter, f)
             check=False
-            print('\nFormatted File is generated as- result.html')
+            print('\nFormatted File is generated as - result.html')
         else:
             print('Please select style from the list only')
 
